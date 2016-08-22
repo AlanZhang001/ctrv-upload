@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CTRL+V上传图片</title>
+        <style type="text/css">
+        .uploadImgBox{
+            border-bottom: 1px solid #f5f5f5;
+        }
+        .cashinPicBox{
+            background: #fff;
+            padding-top: 15px;
+
+        }
+        .cashinPicList{
+            padding-bottom: 15px;
+        }
+        .cashinPicList img {
+            height:130px;
+        }
+        .uploadInput{
+            margin-left: -100000px;
+        }
+        .cashinPicBox .ctrlvBox{
+            width:160px;
+            height:150px;
+            border: 2px solid #ccc;
+            font-size: 30px;
+            text-align: center;
+            line-height: 65px;
+            font-weight: normal;
+            cursor: pointer;
+            display: inline-block;
+            margin-left: 15px;
+            background: #efefef;
+            transition:0.5s all;
+            -webkit-transition:0.5s all;
+            -moz-transition:0.5s all;
+            -o-transition:0.5s all;
+            -ms-transition:0.5s all;
+        }
+        .cashinPicBox .ctrlvBox:hover,.cashinPicBox .ctrlvBox.current{
+            border: 2px solid #5d90d1;
+            color: #5d90d1;
+            transition:0.5s all;
+            -webkit-transition:0.5s all;
+            -moz-transition:0.5s all;
+            -o-transition:0.5s all;
+            -ms-transition:0.5s all;
+        }
+        .cashinListFail{
+            font-size: 16px;
+            color: #ccc;
+            text-align: center;
+            margin: 20px auto;
+        }
+
+        .imgList{
+            padding: 0;
+            margin: 0;
+        }
+        .imgList li{
+            list-style-type: none;
+            border: 1px solid gray;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .imgList li img{
+            max-height: 200px;
+            max-width: 200px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="userInfoArea clearBox">
+            <div class="nameBar">
+                <h3>CTRL+V上传图片</h3>
+            </div>
+        </div>
+        <div>
+            <div class="col-md-12 cashinPicBox uploadImgBox">
+                <div class="ctrlvBox js-upload">1.在此处CTRL+V</div>
+                <div class="ctrlvBox js-upload2">2.在此处CTRL+V</div>
+            </div>
+        </div>
+        <br/>
+        <h3>已上传文件</h3>
+        <ul class="imgList"> </ul>
+        <script data-main="demo_require.js" src="../require.js"></script>
+    </body>
+</html>

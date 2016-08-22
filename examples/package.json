@@ -1,0 +1,26 @@
+{
+  "name": "webpackage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "csswring": "^3.0.4",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^5.1.6",
+    "postcss-import": "^5.2.2",
+    "run-sequence": "^1.1.5",
+    "vinyl-named-with-path": "^1.0.0",
+    "webpack": "^1.12.14",
+    "webpack-stream": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpackage"
+  ],
+  "author": "alanzhang",
+  "license": "ISC"
+}

@@ -1,0 +1,24 @@
+{
+    "name": "ctrv-upload",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "example": "examples"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AlanZhang001/ctrv-upload.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "install": "^0.8.1",
+        "npm": "^3.10.6",
+        "webpack": "^1.12.14"
+    },
+    "dependencies": {}
+}
