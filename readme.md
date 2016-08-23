@@ -24,7 +24,7 @@
 ## 安装
 
 ```sh
-npm install git+https://github.com/AlanZhang001/ctrv-upload.git
+npm install ctrv-upload
 ```
 
 ## 使用
