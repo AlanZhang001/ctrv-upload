@@ -1,24 +1,32 @@
 {
-    "name": "ctrv-upload",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "directories": {
-        "example": "examples"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/AlanZhang001/ctrv-upload.git"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "install": "^0.8.1",
-        "npm": "^3.10.6",
-        "webpack": "^1.12.14"
-    },
-    "dependencies": {}
+  "name": "ctrv-upload",
+  "version": "1.0.2",
+  "description": "最近公司要做一个ctrl+V 上传图片的组件。简单说就是，使用截屏工具截一张图，然后在某个元素上按ctrl+v操作，需要将截的图上床至服务端，服务端保存图片并返回对应的地址;所以封装了组件做这事，发布出来记录下。\r ![](assert/demo.gif)",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanZhang001/ctrv-upload.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alanzhang",
+  "license": "ISC",
+  "devDependencies": {
+    "install": "^0.8.1",
+    "npm": "^3.10.6",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/AlanZhang001/ctrv-upload/issues"
+  },
+  "homepage": "https://github.com/AlanZhang001/ctrv-upload#readme",
+  "keywords": [
+    "upload",
+    "ctrlv"
+  ]
 }
