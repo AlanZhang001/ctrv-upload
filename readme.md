@@ -29,8 +29,11 @@ npm install ctrv-upload
 
 ## 使用
 支持AMD与CommonJs的方式加载模块,
+
 直接引入：`<script src="xxx/ctrv-upload/index.js">`
+
  AMD: `define(['xxx/ctrv-upload/index'],function(ctrlVUtil){});`
+
  COMMONJS: `var ctrlVUtil = require("ctrv-upload");`
 
 #### 调用
