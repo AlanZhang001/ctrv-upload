@@ -46,7 +46,7 @@ var load1 = document.querySelector(".js-upload");
 new ctrlVUtil({
     uploadUrl: "server.php",
     targetElement: load1,
-	isCompleteImg：false,
+	isCompleteImg:false,
     data:{
         name:"alanzhang"
     },
