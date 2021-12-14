@@ -10,7 +10,7 @@
 
 ## 实现原理及过程
 
-### 原理： 
+### 原理：
 - 对于webkit内核，input、textarea、contentEditable属性为true的元素可响应paste事件，可通过事件对象中的clipboardData对象属性访问粘贴板数据。
 - 对于FireFox及IE 11，在contentEditable属性为true的元素上进行ctrl+v操作时，会在目标元素中插入img元素，img元素的src属性即为截图的base64数据。
 - 获取到图片的base64数据后提交给后台程序php，可在服务端保存为图片。
@@ -65,13 +65,13 @@ new ctrlVUtil({
 #### 参数说明
 
 | 名称 | 参数 | 默认值 |
-| :--: | :--- | :--: | 
-| `uploadUrl` | 上传地址 |  需自定义 | 
-| `targetElement` | 鼠标放在该元素上时，可响应ctrl+v操作 | `document.querySelector(".js-upload")` | 
-| `isCompleteImg` | 上传图片base64的格式，`false`表示只上传content部分，即不包括头信息`data:image/jpg;base64`，true表示上传完整的base64字符串 |`false` | 
+| :--: | :--- | :--: |
+| `uploadUrl` | 上传地址 |  需自定义 |
+| `targetElement` | 鼠标放在该元素上时，可响应ctrl+v操作 | `document.querySelector(".js-upload")` |
+| `isCompleteImg` | 上传图片base64的格式，`false`表示只上传content部分，即不包括头信息`data:image/jpg;base64`，true表示上传完整的base64字符串 |`false` |
 | `data` |需要上传的其他参数，json对象 | 空 |
-| `success` | 上传成功时的回调函数，其参数为接口返回的json对象 | - | 
-| `error` | 上传成功时的回调函数，其参数为接口返回的json对象 | - | 
+| `success` | 上传成功时的回调函数，其参数为接口返回的json对象 | - |
+| `error` | 上传成功时的回调函数，其参数为接口返回的json对象 | - |
 
 
 ## API
@@ -89,6 +89,9 @@ new ctrlVUtil({
 2. 实例项目examples中ctrlVMain.js中引用了根目录下的index.js文件，在运行测试文件时也许进行gulp打包操作。
 
 ## 版本记录
+
+### 1.0.2 2021-12-14
+- 修正readme
 
 ### 1.0.2 2016-08-22
 - 修正readme
