@@ -88,7 +88,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        this.uploadInput = null;
 
 	        // 默认的上传地址
-	        this.uploadUrl = "http://www.oa.com/screenshot/create-file";
+	        this.uploadUrl = "http://www.upload.com/screenshot/create-file";
 
 	        // 对于读取的图片base64，前缀为data:image/jpg;base64,base64content
 	        // isCompleteImg为false则去掉前缀直接上传内容部分，为true则上传完整的base64字符串
